@@ -1,0 +1,23 @@
+.colors-box {
+    padding: 1%;
+    width: 96%;
+    display: flex;
+    gap: 5px;
+    margin-top: 2%;
+    flex-wrap:wrap;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+@media (max-width:650px) {
+    .colors-box {
+        padding: 1%;
+        width: 96%;
+        display: flex;
+        gap: 7px;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 100vh;
+        justify-content: space-between;
+    }
+}

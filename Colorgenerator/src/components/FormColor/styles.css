@@ -1,0 +1,44 @@
+.form-styles {
+    width: 40%;
+    display: flex;
+    min-height: 20vh;
+    border-radius: 2%;
+    flex-direction: column;
+    padding: 2%;
+    gap: 6px;
+    justify-content: space-between;
+    border: 1px solid rgba(169, 169, 169, 0.2);
+}
+
+.form-styles .label-styles {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: flex-start;
+}
+
+.generate-button {
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+    transition: all .3s;
+}
+
+.generate-button:hover {
+    background: white;
+    color: black;
+}
+
+.err {
+    background-color: red;
+    color: white;
+    border-radius: 4%;
+}
+@media (max-width:650px){
+    .form-styles{
+        width: 94%;
+      
+    }
+  }
